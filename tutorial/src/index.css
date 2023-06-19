@@ -1,0 +1,89 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+
+}
+
+#header{
+ background-color: #7a7575;
+ margin-top: -20px;
+ margin-right: -20px;
+ margin-left: -20px;
+}
+
+.main{
+  margin-top: 10px;
+  margin-right: -20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+  text-justify: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.movie {
+  background-color: #fff5f5;
+  background-origin: padding-box;
+  color: #000;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid rgb(57, 0, 244);
+  border-radius: 15px;
+  padding-top: 20px;
+
+
+}
+
+#title {
+  text-align: left;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 10px;
+  width: 200px;
+  padding-right: -20px;
+  padding-left: 35px;
+}
+
+.main img{
+  max-width: 200px;
+  max-height: 200px;
+  padding-left: 35px;
+
+
+
+
+}
+
+#year{
+  padding-right: -20px;
+  padding-left: 35px;
+}
+
+.footer{
+  color: green;
+  background-color: tomato;
+}
+
+#body{
+  color: yellow;
+  background-color:magenta
+}
+.student{
+  grid-column: auto;
+}
+
